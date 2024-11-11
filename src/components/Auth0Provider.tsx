@@ -9,8 +9,8 @@ const Auth0ProviderWithNavigate: React.FC<Auth0ProviderWithNavigateProps> = ({
     children,
 }) => {
     const navigate = useNavigate();
-    const domain = "dev-wsri4ajxxosfbwcj.us.auth0.com";
-    const clientId = "RqmdgeDCGazJFZawFm9GPO8qDF3a2nN4";
+    const domain = "dev-8qwdjy2pphqhh8ea.us.auth0.com";
+    const clientId = "JcfxbjKugW3evEOjA7lOJ63UFKac0ly4";
     const redirectUri = "http://localhost:3000/callback";
 
     const onRedirectCallback = (appState: any) => {
